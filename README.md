@@ -1,3 +1,5 @@
+## [Check the work]("https://github.com/uoojin1/kaggle-titanic/blob/master/Titanic.ipynb")
+
 ## Titanic: Machine Learning from Disaster
 
 ### Competition Description
@@ -83,75 +85,3 @@ Child = daughter, son,
 stepdaughter, stepson
 Some children travelled only with a nanny, therefore
 parch=0 for them|.
-
-
-## 3. Investigating the dataset
-
-```python
-# peek test data set
-test.head()
-```
-
-```python
-# train data set dimension
-train.shape
-```
-
-```python
-test.shape
-```
-
-```python
-train.info()
-```
-
-```python
-test.info()
-```
-
-```python
-## pandas .isnull() method returns elements that have null values
-train.isnull().head()
-```
-
-```python
-# summing up the null counts
-train.isnull().sum()
-```
-
-```python
-test.isnull().sum()
-```
-
-```python
-def bar_graph(feature):
-    survived = train[train['Survived']==1][feature].value_counts()
-    dead = train[train['Survived']==0][feature].value_counts()
-    df = pd.DataFrame([survived, dead])
-    df.index = ['Survived', 'Dead']
-    df.plot(kind='bar', stacked=True, figsize=(10,5))
-```
-
-```python
-bar_graph('Sex')
-```
-
-```python
-bar_graph('Pclass')
-```
-
-```python
-bar_graph('SibSp')
-```
-
-```python
-bar_graph('Parch')
-```
-
-```python
-bar_graph('Embarked')
-```
-
-```python
-
-```
