@@ -1,4 +1,4 @@
-## [Check the work]("https://github.com/uoojin1/kaggle-titanic/blob/master/Titanic.ipynb")
+## [View the work](https://github.com/uoojin1/kaggle-titanic/blob/master/Titanic.ipynb)
 
 ## Titanic: Machine Learning from Disaster
 
