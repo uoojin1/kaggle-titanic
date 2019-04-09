@@ -1,4 +1,5 @@
 ## Titanic: Machine Learning from Disaster
+[Link to jupyter notebook](https://github.com/uoojin1/kaggle-titanic/blob/master/Titanic.ipynb)
 
 ### Competition Description
 
@@ -77,46 +78,3 @@ Child = daughter, son,
 stepdaughter, stepson
 Some children travelled only with a nanny, therefore
 parch=0 for them|.
-
-
-## 3. Investigating the dataset
-
-```python
-# peek test data set
-test.head()
-```
-
-```python
-# train data set dimension
-train.shape
-```
-
-```python
-test.shape
-```
-
-```python
-train.info()
-```
-
-```python
-test.info()
-```
-
-```python
-## pandas .isnull() method returns elements that have null values
-train.isnull().head()
-```
-
-```python
-# summing up the null counts
-train.isnull().sum()
-```
-
-```python
-test.isnull().sum()
-```
-
-```python
-
-```
