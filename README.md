@@ -114,5 +114,9 @@ train.isnull().sum()
 ```
 
 ```python
+test.isnull().sum()
+```
+
+```python
 
 ```
