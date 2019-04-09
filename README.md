@@ -1,5 +1,6 @@
+# [View the work](https://github.com/uoojin1/kaggle-titanic/blob/master/Titanic.ipynb)
+
 ## Titanic: Machine Learning from Disaster
-# [Link to jupyter notebook](https://github.com/uoojin1/kaggle-titanic/blob/master/Titanic.ipynb)
 
 ### Competition Description
 
